@@ -23,7 +23,7 @@
         </ul>
       </div>
     </nav>
-    <ul class="sidenav right" id="mobile-demo">
+    <ul class="sidenav" id="mobile-demo">
       <li><a href="https://drive.google.com/file/d/1wBji04mv2YwSCBEVY3SdaVOnZlaQIiLL/view?usp=sharing" target="_blank"><i class="material-icons">picture_as_pdf</i></a></li>
       <li><a href="https://github.com/nikotsafos" target="_blank"><i class="fab fa-github"></i></a></li>
       <li><a href="https://www.linkedin.com/in/nikotsafos/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
@@ -129,11 +129,12 @@
     </div>
 
 </body>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.sidenav');
-  var instances = M.Sidenav.init(elems, options);
-});
-</script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+  </script>
 </html>
